@@ -1,0 +1,15 @@
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.csproj.AssemblyReference.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.AssemblyInfoInputs.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.AssemblyInfo.cs
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.csproj.CoreCompileInputs.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\bin\Debug\net9.0\BUGSystem.BL.deps.json
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\bin\Debug\net9.0\BUGSystem.BL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\bin\Debug\net9.0\BUGSystem.BL.pdb
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\bin\Debug\net9.0\BUGSystem.DAL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\bin\Debug\net9.0\BUGSystem.DAL.pdb
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSyste.DDDD956D.Up2Date
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\refint\BUGSystem.BL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\BUGSystem.BL.pdb
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.BL\obj\Debug\net9.0\ref\BUGSystem.BL.dll

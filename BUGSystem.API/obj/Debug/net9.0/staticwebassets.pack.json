@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\25ae1c76-da60-490a-9e08-61437ee8fca5.png",
+      "PackagePath": "staticwebassets\\attachments\\25ae1c76-da60-490a-9e08-61437ee8fca5.png"
+    },
+    {
+      "Id": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\787dacb3-432d-4f66-b407-792c827cf1a1.png",
+      "PackagePath": "staticwebassets\\attachments\\787dacb3-432d-4f66-b407-792c827cf1a1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BUGSystem.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BUGSystem.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BUGSystem.API.props",
+      "PackagePath": "build\\BUGSystem.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BUGSystem.API.props",
+      "PackagePath": "buildMultiTargeting\\BUGSystem.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BUGSystem.API.props",
+      "PackagePath": "buildTransitive\\BUGSystem.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

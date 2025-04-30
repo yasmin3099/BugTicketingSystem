@@ -1,0 +1,14 @@
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.AssemblyInfo.cs
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\bin\Debug\net9.0\BUGSystem.DAL.deps.json
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\bin\Debug\net9.0\BUGSystem.DAL.runtimeconfig.json
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\bin\Debug\net9.0\BUGSystem.DAL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\bin\Debug\net9.0\BUGSystem.DAL.pdb
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\refint\BUGSystem.DAL.dll
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.pdb
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\BUGSystem.DAL.genruntimeconfig.cache
+C:\Users\NEW LAP\source\repos\BUGSystem\BUGSystem.DAL\obj\Debug\net9.0\ref\BUGSystem.DAL.dll

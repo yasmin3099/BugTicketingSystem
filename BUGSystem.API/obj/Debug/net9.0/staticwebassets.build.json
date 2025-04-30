@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "8h+F3/LGImsg2FyQV4ZqQM2NikcMxguZG/rAQmSLZNI=",
+  "Source": "BUGSystem.API",
+  "BasePath": "_content/BUGSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BUGSystem.API\\wwwroot",
+      "Source": "BUGSystem.API",
+      "ContentRoot": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\",
+      "BasePath": "_content/BUGSystem.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\25ae1c76-da60-490a-9e08-61437ee8fca5.png",
+      "SourceId": "BUGSystem.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\",
+      "BasePath": "_content/BUGSystem.API",
+      "RelativePath": "attachments/25ae1c76-da60-490a-9e08-61437ee8fca5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ubc5hslub",
+      "Integrity": "689oPMEo1lcn0L37ExaMkls/UsN+LGbuw3mbH380MXY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\attachments\\25ae1c76-da60-490a-9e08-61437ee8fca5.png"
+    },
+    {
+      "Identity": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\787dacb3-432d-4f66-b407-792c827cf1a1.png",
+      "SourceId": "BUGSystem.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\",
+      "BasePath": "_content/BUGSystem.API",
+      "RelativePath": "attachments/787dacb3-432d-4f66-b407-792c827cf1a1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pbpsvdkbqb",
+      "Integrity": "y72WpiB+rqG2nNg9EtX94Ku/EGOvH59PpLTi9I4GrnA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\attachments\\787dacb3-432d-4f66-b407-792c827cf1a1.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "attachments/25ae1c76-da60-490a-9e08-61437ee8fca5.3ubc5hslub.png",
+      "AssetFile": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\25ae1c76-da60-490a-9e08-61437ee8fca5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"689oPMEo1lcn0L37ExaMkls/UsN+LGbuw3mbH380MXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 13:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ubc5hslub"
+        },
+        {
+          "Name": "label",
+          "Value": "attachments/25ae1c76-da60-490a-9e08-61437ee8fca5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-689oPMEo1lcn0L37ExaMkls/UsN+LGbuw3mbH380MXY="
+        }
+      ]
+    },
+    {
+      "Route": "attachments/25ae1c76-da60-490a-9e08-61437ee8fca5.png",
+      "AssetFile": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\25ae1c76-da60-490a-9e08-61437ee8fca5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"689oPMEo1lcn0L37ExaMkls/UsN+LGbuw3mbH380MXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 13:03:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-689oPMEo1lcn0L37ExaMkls/UsN+LGbuw3mbH380MXY="
+        }
+      ]
+    },
+    {
+      "Route": "attachments/787dacb3-432d-4f66-b407-792c827cf1a1.pbpsvdkbqb.png",
+      "AssetFile": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\787dacb3-432d-4f66-b407-792c827cf1a1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y72WpiB+rqG2nNg9EtX94Ku/EGOvH59PpLTi9I4GrnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 16:09:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pbpsvdkbqb"
+        },
+        {
+          "Name": "label",
+          "Value": "attachments/787dacb3-432d-4f66-b407-792c827cf1a1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y72WpiB+rqG2nNg9EtX94Ku/EGOvH59PpLTi9I4GrnA="
+        }
+      ]
+    },
+    {
+      "Route": "attachments/787dacb3-432d-4f66-b407-792c827cf1a1.png",
+      "AssetFile": "C:\\Users\\NEW LAP\\source\\repos\\BUGSystem\\BUGSystem.API\\wwwroot\\attachments\\787dacb3-432d-4f66-b407-792c827cf1a1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y72WpiB+rqG2nNg9EtX94Ku/EGOvH59PpLTi9I4GrnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 16:09:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y72WpiB+rqG2nNg9EtX94Ku/EGOvH59PpLTi9I4GrnA="
+        }
+      ]
+    }
+  ]
+}
