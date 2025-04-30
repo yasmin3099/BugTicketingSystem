@@ -1,8 +1,6 @@
 # 🐞 Bug Ticketing System – API Documentation
 
-Welcome to the Bug Ticketing System API. This documentation outlines the available endpoints for managing users, projects, bugs, and attachments within your software development workflow.
 
----
 
 ## 🔐 User Management
 
