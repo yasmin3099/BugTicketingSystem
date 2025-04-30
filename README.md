@@ -1,36 +1,40 @@
 # 🐞 Bug Ticketing System – API Documentation
 
+Welcome to the Bug Ticketing System API. This documentation outlines the available endpoints for managing users, projects, bugs, and attachments within your software development workflow.
+
+---
+
 ## 🔐 User Management
 
-### 🔸 Register User  
-**Endpoint:** `POST /api/users/register`  
-Registers a new user account.
+### 🔹 Register User
+- **Endpoint:** `POST /api/users/register`
+- **Description:** Registers a new user account.
 
-**Request Body:**
+#### 📤 Request Body:
 ```json
 {
-   "username":"Mohamed",
-   "email":"mo@gmail.com",
-   "password":"_Mo1234h",
-   "role":"Developer"
+  "username": "Mohamed",
+  "email": "mo@gmail.com",
+  "password": "_Mo1234h",
+  "role": "Developer"
 }
 ```
 
 ---
 
-### 🔸 Login User  
-**Endpoint:** `POST /api/users/login`  
-Authenticates a user and returns a JWT token.
+### 🔹 Login User
+- **Endpoint:** `POST /api/users/login`
+- **Description:** Authenticates a user and returns a JWT token.
 
-**Request Body:**
+#### 📤 Request Body:
 ```json
 {
-  "email":"mo@gmail.com",
-  "password":"_Mo1234h",
+  "email": "mo@gmail.com",
+  "password": "_Mo1234h"
 }
 ```
 
-**Response:**
+#### 📥 Response:
 ```json
 {
   "token": "jwt_token_here"
@@ -41,11 +45,11 @@ Authenticates a user and returns a JWT token.
 
 ## 🗂️ Project Management
 
-### 🔸 Create Project  
-**Endpoint:** `POST /api/projects`  
-Creates a new project.
+### 🔹 Create Project
+- **Endpoint:** `POST /api/projects`
+- **Description:** Creates a new project.
 
-**Request Body:**
+#### 📤 Request Body:
 ```json
 {
   "name": "latest final api",
@@ -55,11 +59,11 @@ Creates a new project.
 
 ---
 
-### 🔸 Get All Projects  
-**Endpoint:** `GET /api/projects`  
-Returns a list of all projects.
+### 🔹 Get All Projects
+- **Endpoint:** `GET /api/projects`
+- **Description:** Retrieves all projects.
 
-**Response:**
+#### 📥 Response:
 ```json
 [
   {
@@ -72,16 +76,16 @@ Returns a list of all projects.
 
 ---
 
-### 🔸 Get Project Details  
-**Endpoint:** `GET /api/projects/:id`  
-Returns detailed info about a specific project including its bugs.
+### 🔹 Get Project Details
+- **Endpoint:** `GET /api/projects/:id`
+- **Description:** Retrieves detailed information about a specific project.
 
-**Response:**
+#### 📥 Response:
 ```json
 {
-    "projectId": "c8593d13-8420-4f73-a4b5-08dd880129ee",
-    "name": "latest final api",
-    "description": "Api description"
+  "projectId": "c8593d13-8420-4f73-a4b5-08dd880129ee",
+  "name": "latest final api",
+  "description": "Api description"
 }
 ```
 
@@ -89,53 +93,53 @@ Returns detailed info about a specific project including its bugs.
 
 ## 🐛 Bug Management
 
-### 🔸 Create Bug  
-**Endpoint:** `POST /api/bugs`  
-Creates a new bug.
+### 🔹 Create Bug
+- **Endpoint:** `POST /api/bugs`
+- **Description:** Creates a new bug related to a specific project.
 
-**Request Body:**
+#### 📤 Request Body:
 ```json
 {
-  "Title":"login fail",
-  "Description":"neww bug description",
-  "ProjectId":"c8593d13-8420-4f73-a4b5-08dd880129ee"
+  "Title": "login fail",
+  "Description": "new bug description",
+  "ProjectId": "c8593d13-8420-4f73-a4b5-08dd880129ee"
 }
 ```
 
 ---
 
-### 🔸 Get All Bugs  
-**Endpoint:** `GET /api/bugs`  
-Returns all bugs.
+### 🔹 Get All Bugs
+- **Endpoint:** `GET /api/bugs`
+- **Description:** Retrieves all bugs.
 
-**Response:**
+#### 📥 Response:
 ```json
 [
   {
- "id": "73adc756-15a9-4150-5c5a-08dd86ce994e",
- "title": "test",
- "description": "testbug",
-  } 
+    "id": "73adc756-15a9-4150-5c5a-08dd86ce994e",
+    "title": "test",
+    "description": "testbug"
+  }
 ]
 ```
 
 ---
 
-### 🔸 Get Bug Details  
-**Endpoint:** `GET /api/bugs/:id`  
-Returns detailed info about a specific bug.
+### 🔹 Get Bug Details
+- **Endpoint:** `GET /api/bugs/:id`
+- **Description:** Retrieves detailed information about a specific bug.
 
-**Response:**
+#### 📥 Response:
 ```json
 {
-        "id": "73adc756-15a9-4150-5c5a-08dd86ce994e",
-        "title": "test",
-        "description": "testbug",
-        "project": {
-            "projectId": "1ceb8293-467b-4cdf-cd28-08dd85cf79f4",
-            "name": "test1",
-            "description": "test description"
-        }
+  "id": "73adc756-15a9-4150-5c5a-08dd86ce994e",
+  "title": "test",
+  "description": "testbug",
+  "project": {
+    "projectId": "1ceb8293-467b-4cdf-cd28-08dd85cf79f4",
+    "name": "test1",
+    "description": "test description"
+  }
 }
 ```
 
@@ -143,11 +147,11 @@ Returns detailed info about a specific bug.
 
 ## 👥 User-Bug Assignment
 
-### 🔸 Assign User to Bug  
-**Endpoint:** `POST /api/bugs/:id/assignees`  
-Assigns a user to a bug.
+### 🔹 Assign User to Bug
+- **Endpoint:** `POST /api/bugs/:id/assignees`
+- **Description:** Assigns a user to a bug.
 
-**Request Body:**
+#### 📤 Request Body:
 ```json
 {
   "userId": "guid"
@@ -156,40 +160,40 @@ Assigns a user to a bug.
 
 ---
 
-### 🔸 Remove User from Bug  
-**Endpoint:** `DELETE /api/bugs/:id/assignees/:userId`  
-Unassigns a user from a bug.
+### 🔹 Remove User from Bug
+- **Endpoint:** `DELETE /api/bugs/:id/assignees/:userId`
+- **Description:** Removes a user assignment from a bug.
 
 ---
 
 ## 📎 File Attachments
 
-### 🔸 Upload Attachment  
-**Endpoint:** `POST /api/bugs/:id/attachments`  
-Uploads a file to a bug (`multipart/form-data`).
+### 🔹 Upload Attachment
+- **Endpoint:** `POST /api/bugs/:id/attachments`
+- **Description:** Uploads a file (image or document) to a specific bug.
 
-**Form Field:**
+#### 📤 Form Field:
 - `file`: image or document file
 
 ---
 
-### 🔸 Get Attachments for Bug  
-**Endpoint:** `GET /api/bugs/:id/attachments`  
-Returns all attachments for a bug.
+### 🔹 Get Attachments for Bug
+- **Endpoint:** `GET /api/bugs/:id/attachments`
+- **Description:** Returns all attachments related to a bug.
 
-**Response:**
+#### 📥 Response:
 ```json
 [
-   {
-     "attachmentId": "e61545ff-b900-4aad-b887-ff7201ecca55",
-     "fileName": "Screenshot 2025-03-15 063301.png",
-     "filePath": "http://localhost:5240/attachments/1961428b-a5d5-4f07-b062-606564ea1b8b.png"
-   }
+  {
+    "attachmentId": "e61545ff-b900-4aad-b887-ff7201ecca55",
+    "fileName": "Screenshot 2025-03-15 063301.png",
+    "filePath": "http://localhost:5240/attachments/1961428b-a5d5-4f07-b062-606564ea1b8b.png"
+  }
 ]
 ```
 
 ---
 
-### 🔸 Delete Attachment  
-**Endpoint:** `DELETE /api/bugs/:id/attachments/:attachmentId`  
-Removes an attachment from a bug.
+### 🔹 Delete Attachment
+- **Endpoint:** `DELETE /api/bugs/:id/attachments/:attachmentId`
+- **Description:** Deletes a specific attachment from a bug.
